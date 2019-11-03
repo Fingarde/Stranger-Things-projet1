@@ -1,0 +1,36 @@
+#container article {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+#container img {
+    width: 256px;
+
+    border: #2B2B2B solid 4px;
+    border-radius: 10px;
+}
+
+#container a:link {
+    color: 2B2B2B;
+}
+  
+#container a:visited {
+    color: #2B2B2B;
+}
+  
+#container a:hover {
+    background: none;
+}
+
+#container figcaption {
+    text-align: center;
+}
+
+#container #big img {
+    width: 1020px;
+
+    border: #2B2B2B solid 4px;
+    border-radius: 10px;
+}

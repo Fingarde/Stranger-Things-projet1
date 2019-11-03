@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'Fugaz One';
+    src: url('../fonts/fugazone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/fugazone-regular-webfont.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/arvo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/arvo-regular-webfont.woff') format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    display: flex; 
+    flex-direction: column; 
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+
+header {
+    height: 256px;
+
+    background: linear-gradient(#FAFAFA 98%, #2B2B2B);
+
+    border-bottom: #2B2B2B solid 6px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#menu #eleven {
+  object-fit: cover;
+  object-position: 0% 0;
+
+  width: 300px;
+  height: 262px;
+}
+
+#menu #social {
+    position: fixed;
+
+    right: 70px;
+    top: 100px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#menu #social img {
+    border-bottom: #2B2B2B solid 5px;
+    border-radius: 50px;
+
+    margin-right: 25px;	
+}
+
+#menu #header-center {
+    margin-left: 10%;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+}
+
+#menu h1 {
+    text-shadow: 1px 1px 2px #2B2B2B;
+    color: #2B2B2B;
+
+    margin: 0 auto;
+    line-height: 2.5em;
+    font-family: 'Arvo', serif;
+    font-size: 60px;
+}
+
+#menu nav {
+    height: 100px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+
+#menu nav a {
+    height: 80px;
+
+    text-align: center;
+    line-height: 2.5em;
+
+    color: #2B2B2B;
+
+    font-family: 'Arvo', serif;
+    font-size: 30px;
+}
+
+#menu u {
+    padding: 0px 20px 10px 20px;
+
+    text-decoration: none;
+
+    border-bottom: #2B2B2B solid 5px;
+    border-radius: 7px;
+}
+
+#menu #dropdown-content {
+    display: none;
+    position: absolute;
+
+    background-color: #FAFAFA;
+
+    margin-top: 12px;
+    padding: 0px 50px 0px 50px; 
+
+    z-index: 1;
+
+    border-top: #FAFAFA solid 5px;
+    border-left: #2B2B2B solid 5px;
+    border-right: #2B2B2B solid 5px;
+    border-bottom: #2B2B2B solid 5px;
+    border-radius: 7px;
+}
+
+#menu #dropdown-content a{
+    display: block;
+}
+
+#menu #dropdown:hover #dropdown-content {
+    display: block;
+}
+
+#container {
+    margin-left: 9%;
+    margin-top: 100px;
+
+    padding: 80px;
+
+    width: 78%;
+    
+    background-color: #FAFAFA;
+
+    border: #2B2B2B solid 5px;
+    border-radius: 7px;
+}
+
+#container h2 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 35px;
+
+    color: #2B2B2B;
+
+    margin-left: 40px;
+}
+
+#container h3 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 25px;
+
+    color: #2B2B2B;
+}
+
+
+#container u {
+    padding: 0px 20px 0px 20px;
+
+    text-decoration: none;
+
+    border-bottom: #2B2B2B solid 4px;
+    border-radius: 7px;
+}
+
+#container article {
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+
+    line-height: 30px;
+
+    color: #2B2B2B;
+
+    margin: 40px 0px 40px 0px;
+}
+
+#container #spacer {
+    margin-left: 30%;
+
+    margin-top: 70px;
+    margin-bottom: 90px;
+
+    width: 35%;
+
+    border: #2B2B2B solid 2px;
+    border-radius: 30px;
+}
+
+#container a:link {
+    color: #265301;
+}
+  
+#container a:visited {
+    color: #437A16;
+}
+  
+  
+#container a:hover {
+    background: #CDFEAA;
+}
+
+#container aside > #college {
+    width: 80%;
+}
+
+#container aside {
+    border: #2B2B2B solid 3px;
+    border-radius: 15px;
+
+    width: 20%;
+
+    float: right;
+
+    padding: 10px 0px 10px 70px;
+}
+
+
+footer {
+    margin-top: 100px;
+
+    height: 80px;
+
+    background-color: #2B2B2B;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    align-items: center;
+}
+
+footer a {
+    height: 80px;
+    
+    margin-left: 2%;
+
+    text-align: center;
+    line-height: 2.5em;
+
+    color: #FAFAFA;
+
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+}
+
+footer u {
+    padding: 0px 20px 10px 20px;
+
+    text-decoration: none;
+
+    border-bottom: #FAFAFA solid 4px;
+    border-radius: 7px;
+}
+
+footer #credits {
+    font-family: 'Arvo', serif;
+
+    margin-left: 11%;
+    font-size: 20px;
+
+    color: #FAFAFA;
+
+    white-space: pre;
+}
+
+
+/* ANCIEN CSS
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#content {
+    margin-left: 15%;
+}
+
+#content h2 {
+    margin-left: 2%;
+}
+
+#content p {
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+strong {
+    color: red;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+header a {
+    display: inline-block;
+    border: black solid 1px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    line-height: 1.8em;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+#lycee {
+    width: 80%;
+}
+
+#lycee p{
+    margin-right: 10%;
+}
+
+aside {
+    border: black solid 2px;
+    width: 20%;
+    height: 400px;
+    float: right;
+}
+
+.video-desc {
+    width: 30%;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: black solid 1px;
+}
+
+.photo {
+    width: 80%;
+    padding: 20px;
+    border: black solid 1px;
+    text-align: center
+}
+
+.media:hover + div.hidden, .hidden:hover
+{
+    display: block;
+}
+
+.hidden {
+    position: absolute;
+    margin-left: 1000px; 
+    z-index: 12;
+    display: none;
+}
+
+#social {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+}
+
+*/

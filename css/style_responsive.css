@@ -1,0 +1,126 @@
+#menu #eleven {
+  object-fit: cover;
+  object-position: 0% 0;
+
+  width: 180px;
+  height: 262px;
+}
+
+
+#menu #header-center {
+	margin-left: 0px; 
+	width: 80%;
+
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-around;
+}
+
+
+#menu u {
+	padding: 0px 10px 5px 10px;
+
+	text-decoration: none;
+
+	border-bottom: #2B2B2B solid 5px;
+	border-radius: 7px;
+}
+
+
+#menu h1 {
+	text-shadow: 1px 1px 2px #2B2B2B;
+	color: #2B2B2B;
+
+	margin: 0 auto;
+	line-height: 2.5em;
+	font-family: 'Arvo', serif;
+	font-size: 40px;
+}
+
+#menu nav a {
+	height: 50px;
+
+	text-align: center;
+	line-height: 1em;
+
+	color: #2B2B2B;
+
+	font-family: 'Arvo', serif;
+	font-size: 18px;
+}
+
+#menu #dropdown-content {
+	display: none;
+	position: absolute;
+
+	background-color: #FAFAFA;
+
+	margin-top: 12px;
+	margin-left: -10px;
+	padding: 0px 5px 0px 5px; 
+
+	z-index: 1;
+
+	border-top: #FAFAFA solid 4px;
+	border-left: #2B2B2B solid 4px;
+	border-right: #2B2B2B solid 4px;
+	border-bottom: #2B2B2B solid 4px;
+	border-radius: 7px;
+}
+
+#container {
+	margin-left: 1%;
+	margin-top: 100px;
+
+	padding: 80px;
+
+	width: 75%;
+	
+	background-color: #FAFAFA;
+
+	border: #2B2B2B solid 5px;
+	border-radius: 7px;
+}
+
+#container aside {
+	display: none;
+}
+
+#menu #social {
+    display: none;
+}
+
+footer a {
+	height: 40px;
+	
+	margin-left: 2%;
+
+	text-align: center;
+	line-height: 2.5em;
+
+	color: #FAFAFA;
+
+	font-family: 'Arvo', serif;
+	font-size: 18px;
+}
+
+footer u {
+	padding: 0px 20px 10px 20px;
+
+	text-decoration: none;
+
+	border-bottom: #FAFAFA solid 4px;
+	border-radius: 7px;
+}
+
+footer #credits {
+	font-family: 'Arvo', serif;
+
+	margin-left: 2%;
+	font-size: 12px;
+
+	color: #FAFAFA;
+
+	white-space: pre;
+}
